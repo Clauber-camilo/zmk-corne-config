@@ -12,7 +12,7 @@ layers:
   - L
   - U
   - Y
-  - {t: ';', s: ':'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
@@ -197,7 +197,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - {t: 'QWERTY', type: layer}
+  - {t: QWERTY, h: toggle}
   - F1
   - F2
   - F3
@@ -210,7 +210,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: 'COLEMAK', type: layer}
+  - {t: COLEMAK-DH, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
