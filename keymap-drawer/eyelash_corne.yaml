@@ -45,8 +45,8 @@ layers:
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn | Bt}
-  - {t: '$$mdi:keyboard-return$$', h: Fn | Bt}
+  - {t: '$$mdi:keyboard-space$$', h: Functions}
+  - {t: '$$mdi:keyboard-return$$', h: Functions}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   NUMBER:
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn | Bt:
+  Functions:
   - '&studio_unlock'
   - F1
   - F2
