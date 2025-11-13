@@ -1,54 +1,5 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  COLEMAK-DH:
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - $$mdi:arrow-up-bold$$
-  - J
-  - L
-  - U
-  - Y
-  - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-control$$
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: LEFT WIN}
-  - T
-  - G
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - M
-  - N
-  - {t: E, h: RIGHT WIN}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - D
-  - V
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
-  - K
-  - H
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
-  - LGUI
-  - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
-  - $$mdi:apple-keyboard-option$$
   QWERTY:
   - $$mdi:keyboard-tab$$
   - Q
@@ -64,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: LEFT WIN}
-  - F
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - J
-  - {t: K, h: RIGHT WIN}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: ;, h: RIGHT GUI, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -88,6 +39,55 @@ layers:
   - $$mdi:arrow-down-bold$$
   - N
   - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:keyboard-esc$$
+  - LGUI
+  - NUMBER
+  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - SYMBOL
+  - $$mdi:apple-keyboard-option$$
+  COLEMAK-DH:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - $$mdi:arrow-up-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-control$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: RIGHT GUI}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-down-bold$$
+  - K
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
